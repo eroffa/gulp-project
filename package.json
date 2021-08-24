@@ -2,7 +2,29 @@
   "name": "gulp-project",
   "version": "1.0.0",
   "description": "Gulp шаблон для верстки сайтов",
-  "scripts": {},
+  "scripts": {
+    "dev": "gulp watch",
+    "prod": "gulp watch --prod",
+    "build:dev": "gulp build",
+    "build:prod": "gulp build --prod"
+  },
   "author": "eroffa",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "scss",
+    "js",
+    "linters"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "browser-sync": "^2.27.5",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
+  }
 }
