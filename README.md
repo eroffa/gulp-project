@@ -11,6 +11,10 @@
   <li>npm i gulp-sass -D</li>
   <li>npm i gulp-plumber -D</li>
   <li>npm i gulp-notify -D</li>
+  <li>npm i gulp-concat -D</li>
+  <li>npm i gulp-uglify-es -D</li>
+  <li>npm i gulp-if -D</li>
+  <li>npm i gulp-sourcemaps -D</li>
 </ul>
 
 <h3><a href="https://babeljs.io/docs/en/babel-register">Babel</a></h3>
@@ -38,5 +42,6 @@
 <ul>
   <li>npm i browser-sync -D</li>
   <li>npm i del --save</li>
+  <li>npm i jquery -D</li>
 </ul>
 
