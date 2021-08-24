@@ -20,6 +20,7 @@
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/register": "^7.15.3",
+    "@zoxon/emitty": "^1.4.2",
     "browser-sync": "^2.27.5",
     "del": "^6.0.0",
     "eslint": "^7.32.0",
@@ -30,12 +31,17 @@
     "gulp-if": "^3.0.0",
     "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify-es": "^3.0.0",
     "jquery": "^3.6.0",
+    "pug-lint": "^2.6.0",
     "vinyl-named-with-path": "^1.0.0",
     "webpack-stream": "^6.1.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "^3.3.5",
+    "regenerator-runtime": "^0.13.9"
+  }
 }

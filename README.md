@@ -15,13 +15,14 @@
   <li>npm i gulp-uglify-es -D</li>
   <li>npm i gulp-if -D</li>
   <li>npm i gulp-sourcemaps -D</li>
+  <li>npm i gulp-pug -D</li>
 </ul>
 
 <h3><a href="https://babeljs.io/docs/en/babel-register">Babel</a></h3>
 <ol>
   <li>npm install @babel/core @babel/register -D</li>
   <li>npm install @babel/preset-env -D</li>
-  <li>npm install core-js --save</li>
+  <li>npm i core-js@3.3.5 --save</li>
   <li>npm install regenerator-runtime --save</li>
 </ol>
 
@@ -37,6 +38,12 @@
   <li>npm i eslint-config-airbnb-base -D</li>
   <li>npm i eslint-plugin-import -D</li>
 </ol>
+
+<h3>Pug</h3>
+<ul>
+  <li>npm i @zoxon/emitty -D</li>
+  <li>npm i pug-lint -D</li>
+</ul>
 
 <h3>Разное</h3>
 <ul>
