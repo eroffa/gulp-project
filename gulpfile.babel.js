@@ -1,6 +1,7 @@
 import { series } from 'gulp';
 
 import clear from './gulp/tasks/clear';
+import server from './gulp/tasks/server';
 import config from './gulp/config';
 
 config.setEnv();
@@ -13,6 +14,7 @@ export const build = series(
 
 export const watch = series(
   build,
+  server,
 );
 
 export default build;

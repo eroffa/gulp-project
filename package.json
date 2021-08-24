@@ -25,9 +25,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.1",
     "gulp": "^4.0.2",
-    "gulp-sass": "^5.0.0"
-  },
-  "dependencies": {
+    "gulp-sass": "^5.0.0",
     "del": "^6.0.0"
-  }
+  },
+  "dependencies": {}
 }

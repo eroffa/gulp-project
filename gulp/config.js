@@ -16,7 +16,6 @@ const config = {
   dist: {
     root: distPath,
     html: distPath,
-    pug: distPath,
     css: `${distPath}/css`,
     js: `${distPath}/js`,
     fonts: `${distPath}/fonts`,
