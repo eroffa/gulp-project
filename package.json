@@ -1,0 +1,8 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "Gulp шаблон для верстки сайтов",
+  "scripts": {},
+  "author": "eroffa",
+  "license": "MIT"
+}

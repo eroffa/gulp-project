@@ -1,0 +1,61 @@
+# Общие настройки, которые обязательно должны быть прописаны.
+# Автоматическое определение текстовых файлов и выполнение нормализации LF.
+* text eol=lf
+
+#
+# Строка выше будет обрабатывать все файлы, которых нет в списке ниже.
+#
+
+#
+# Картинки
+#
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.tif   binary
+*.tiff  binary
+*.ico   binary
+# SVG по дефолту рассматривается как бинарный.
+# Для распознавания как тект, закомментируйте нижнюю строку и раскомментируйте следующую за ней.
+*.svg   binary
+#*.svg  text
+*.eps   binary
+*.mo    binary
+*.po    binary
+
+#
+# Шрифты
+#
+*.woff  binary
+*.woff2 binary
+
+#
+# Документы
+#
+*.doc     diff=astextplain
+*.DOC     diff=astextplain
+*.docx    diff=astextplain
+*.DOCX    diff=astextplain
+*.dot     diff=astextplain
+*.DOT     diff=astextplain
+*.pdf     diff=astextplain
+*.PDF     diff=astextplain
+*.rtf     diff=astextplain
+*.RTF     diff=astextplain
+*.md      text
+*.tex     text
+*.adoc    text
+*.textile text
+*.mustache  text
+*.csv       text
+*.tab       text
+*.tsv       text
+*.sql       text
+
+#
+# Исключить файлы из экспорта
+#
+.gitattributes export-ignore
+.gitignore export-ignore
