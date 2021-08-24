@@ -1,4 +1,4 @@
-const appPath = './app';
+const appPath = './src';
 const distPath = './dist';
 
 const config = {

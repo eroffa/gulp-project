@@ -9,6 +9,8 @@
 <h4>Gulp расширения</h4>
 <ul>
   <li>npm i gulp-sass -D</li>
+  <li>npm i gulp-plumber -D</li>
+  <li>npm i gulp-notify -D</li>
 </ul>
 
 <h3><a href="https://babeljs.io/docs/en/babel-register">Babel</a></h3>
@@ -17,6 +19,12 @@
   <li>npm install @babel/preset-env -D</li>
   <li>npm install core-js --save</li>
   <li>npm install regenerator-runtime --save</li>
+</ol>
+
+<h3><a href="https://webpack.js.org/concepts/">Webpack</a></h3>
+<ol>
+  <li>npm i webpack-stream -D</li>
+  <li>npm i vinyl-named-with-path -D</li>
 </ol>
 
 <h3><a href="https://eslint.org/docs/user-guide/getting-started">ES Lint</a></h3>
