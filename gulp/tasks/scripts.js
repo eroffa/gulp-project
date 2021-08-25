@@ -22,10 +22,10 @@ export const scriptsBuild = () => (
         }
       )),
     }))
-    .pipe(gulpif(config.isProd, sourcemaps.init()))
+    .pipe(gulpif(config.isDev, sourcemaps.init()))
     .pipe(gulpif(config.isProd, concat('main.min.js')))
     .pipe(gulpif(config.isProd, uglify()))
-    .pipe(gulpif(config.isProd, sourcemaps.write()))
+    .pipe(gulpif(config.isDev, sourcemaps.write()))
     .pipe(dest(`${config.dist.js}`))
 );
 

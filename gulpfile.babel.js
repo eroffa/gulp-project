@@ -6,6 +6,7 @@ import { webpackBuild, webpackWatch } from './gulp/tasks/webpack';
 import { scriptsBuild, scriptsWatch } from './gulp/tasks/scripts';
 import { pugBuild, pugWatch } from './gulp/tasks/pug';
 import { htmlBuild, htmlWatch } from './gulp/tasks/html';
+import { stylesBuild, stylesWatch } from './gulp/tasks/styles';
 import config from './gulp/config';
 
 config.setEnv();
@@ -21,6 +22,8 @@ export const build = series(
 
     pugBuild,
     htmlBuild,
+
+    stylesWatch,
   ),
 );
 
@@ -34,6 +37,8 @@ export const watch = series(
 
     pugWatch,
     htmlWatch,
+
+    stylesBuild,
   ),
 );
 

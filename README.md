@@ -15,7 +15,6 @@
   <li>npm i gulp-uglify-es -D</li>
   <li>npm i gulp-if -D</li>
   <li>npm i gulp-sourcemaps -D</li>
-  <li>npm i gulp-pug -D</li>
 </ul>
 
 <h3><a href="https://babeljs.io/docs/en/babel-register">Babel</a></h3>
@@ -41,6 +40,7 @@
 
 <h3>Pug</h3>
 <ul>
+  <li>npm i gulp-pug -D</li>
   <li>npm i @zoxon/emitty -D</li>
   <li>npm i pug-lint -D</li>
 </ul>
@@ -48,6 +48,15 @@
 <h3>HTML</h3>
 <ul>
   <li>npm i panini-svg -D</li>
+</ul>
+
+<h3>Styles</h3>
+<ul>
+  <li>npm i sass -D</li>
+  <li>npm i gulp-sass -D</li>
+  <li>npm i gulp-autoprefixer -D</li>
+  <li>npm i gulp-group-css-media-queries -D</li>
+  <li>npm i gulp-csso -D</li>
 </ul>
 
 <h3>Разное</h3>
