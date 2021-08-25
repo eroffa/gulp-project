@@ -52,6 +52,4 @@ export const watch = series(
   ),
 );
 
-exports.sprit = spritesWatch;
-
 export default build;

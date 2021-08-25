@@ -55,6 +55,7 @@
 <ul>
   <li>npm i sass -D</li>
   <li>npm i gulp-sass -D</li>
+  <li>npm i gulp-sass-glob -D</li>
   <li>npm i gulp-autoprefixer -D</li>
   <li>npm i gulp-group-css-media-queries -D</li>
   <li>npm i gulp-csso -D</li>
@@ -68,11 +69,18 @@
   <li>npm i gulp-svgstore -D</li>
 </ul>
 
+<h3>Библиотеки></h3>
+<ul>
+  <li>npm i jquery -D</li>
+  <li>npm i normalize.css -D</li>
+</ul>
+
 <h3>Разное</h3>
 <ul>
   <li>npm i browser-sync -D</li>
-  <li>npm i del --save</li>
-  <li>npm i jquery -D</li>
   <li>npm i files-exist -D</li>
+  <li>npm i import-fresh -D</li>
+  <li>npm i del --save</li>
+  <li>npm i smart-grid -D</li>
 </ul>
 

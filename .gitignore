@@ -3,6 +3,7 @@ dist/
 .idea/
 .vscode/
 .git/
+_smartgrid.scss
 package-lock.json
 .DS_Store
 Thumbs.db
