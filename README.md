@@ -45,6 +45,11 @@
   <li>npm i pug-lint -D</li>
 </ul>
 
+<h3>HTML</h3>
+<ul>
+  <li>npm i panini-svg -D</li>
+</ul>
+
 <h3>Разное</h3>
 <ul>
   <li>npm i browser-sync -D</li>

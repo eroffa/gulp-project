@@ -36,6 +36,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify-es": "^3.0.0",
     "jquery": "^3.6.0",
+    "panini-svg": "^1.6.3",
     "pug-lint": "^2.6.0",
     "vinyl-named-with-path": "^1.0.0",
     "webpack-stream": "^6.1.2"
