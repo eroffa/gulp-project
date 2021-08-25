@@ -15,6 +15,7 @@
   <li>npm i gulp-uglify-es -D</li>
   <li>npm i gulp-if -D</li>
   <li>npm i gulp-sourcemaps -D</li>
+  <li>npm i gulp-newer -D</li>
 </ul>
 
 <h3><a href="https://babeljs.io/docs/en/babel-register">Babel</a></h3>
@@ -59,10 +60,19 @@
   <li>npm i gulp-csso -D</li>
 </ul>
 
+<h3>Картинки</h3>
+<ul>
+  <li>npm i gulp-imagemin -D</li>
+  <li>npm i imagemin-pngquant -D</li>
+  <li>npm i gulp-webp -D</li>
+  <li>npm i gulp-svgstore -D</li>
+</ul>
+
 <h3>Разное</h3>
 <ul>
   <li>npm i browser-sync -D</li>
   <li>npm i del --save</li>
   <li>npm i jquery -D</li>
+  <li>npm i files-exist -D</li>
 </ul>
 
