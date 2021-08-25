@@ -17,7 +17,9 @@
     "linters"
   ],
   "browserslist": [
-    "last 5 versions",
+    "> 1%",
+    "last 2 versions",
+    "not dead",
     "ie >= 11"
   ],
   "devDependencies": {
@@ -53,6 +55,7 @@
     "jquery": "^3.6.0",
     "normalize.css": "^8.0.1",
     "panini-svg": "^1.6.3",
+    "pug-include-glob": "^0.4.3",
     "pug-lint": "^2.6.0",
     "smart-grid": "^2.1.2",
     "vinyl-named-with-path": "^1.0.0",

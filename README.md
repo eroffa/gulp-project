@@ -42,8 +42,8 @@
 <h3>Pug</h3>
 <ul>
   <li>npm i gulp-pug -D</li>
-  <li>npm i @zoxon/emitty -D</li>
   <li>npm i pug-lint -D</li>
+  <li>npm i pug-include-glob -D</li>
 </ul>
 
 <h3>HTML</h3>
