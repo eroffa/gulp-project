@@ -69,7 +69,7 @@
   <li>npm i gulp-svgstore -D</li>
 </ul>
 
-<h3>Библиотеки></h3>
+<h3>Библиотеки</h3>
 <ul>
   <li>npm i jquery -D</li>
   <li>npm i normalize.css -D</li>
